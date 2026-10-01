@@ -1,0 +1,21 @@
+const common={role:[100,100,100],tools:'Premiere Pro · After Effects'};
+const works=[
+{id:'7m9JE6lOyKM',title:'문화유산 재난안전 실록',cat:'공모전',client:'국가유산청',award:'우수상',desc:'민족의 혼과 얼이 담긴 문화유산을 소홀히 대하는 현대인들을 보며 슬퍼하는 왕. 그가 제언하는 인적 재난 대응 역량 강화 캠페인.',people:3,date:'2023.12.18 — 2023.12.28',...common},
+{id:'1Rolh3YSLn8',title:'미대생의 눈물',cat:'공모전',client:'우지커피',award:'장려상',desc:'일상이 화실이고 화실이 일상인 미대생. 영감이 떠오르지 않아 골머리를 앓던 그녀가 단돈 2천 원을 가지고 달려간 휴식처는?',people:2,date:'2024.06.11 — 2024.06.23',...common},
+{id:'8EY8vlhcnxM',title:'The Real Freemium, The Real Premium',cat:'공모전',client:'Galaxy Tab S9 Series',award:'서울영상광고제 · 파이널리스트',desc:'자신의 꿈을 그려가는 농인 소녀. 그녀의 여정에 함께할 Galaxy Tab S9 Series.',people:7,date:'2024.03.01 — 2024.03.29',...common},
+{id:'kwJybn0x9MY',title:'목표가는 몇 층이시죠?',cat:'공모전',client:'삼성증권',desc:'시드머니를 내고 엘리베이터에 탑승하는 주인공. 그녀와 함께 주가를 올려 나가는 벨보이의 이야기.',people:5,date:'2024.05.04 — 2024.06.03',vertical:true,...common},
+{id:'bnd7AK3MKTM',title:'Find safe food, Find the HACCP',cat:'공모전',client:'식품안전관리인증원',desc:'안전한 음식을 찾아달라는 의뢰를 받은 탐정. 실험은 모두 실패로 돌아가고, 거리에서 사람들이 먹는 음식을 분석하기 시작한다. 탐정은 의뢰에 성공할 수 있을까?',people:4,date:'2023.09.12 — 2023.09.23',vertical:true,...common,tools:'Premiere Pro · Photoshop'},
+{id:'XmPZJtJ1oxg',title:'고구마는 해남고구마',cat:'공모전',client:'해남고구마',desc:'어느 날 서울 소녀는 해남 가는 표 한 장을 사게 된다. 해남 고구마에 푹 빠진 소녀의 마지막 행동은?',people:3,date:'2024.01.28 — 2024.02.07',vertical:true,...common,tools:'Premiere Pro · Photoshop'},
+{id:'boGdJa4DGVg',title:'인생 Card 그래프',cat:'공모전',client:'삼성 iD 카드 · Series 01',desc:'진부한 자기소개에 하품하던 면접관 앞에 등장한 심상치 않은 지원자. 그의 10대, 20대 그리고 입사 후의 인생이 담긴 인생 Card 그래프.',people:3,date:'2024.03.01 — 2024.03.29',...common,tools:'Premiere Pro · After Effects · Photoshop'},
+{id:'TQgLJSX6m3o',title:'사랑의 Cardpid',cat:'공모전',client:'삼성 iD 카드 · Series 02',desc:'설레는 2:2 미팅에서 시작된 첫눈에 반한 사랑. 자신을 표현하는 iD 카드를 뽑으며 서로의 취향을 알아가는 이야기.',people:3,date:'2024.03.01 — 2024.03.29',...common,tools:'Premiere Pro · After Effects · Photoshop'},
+{id:'inOJH2vz6rg',title:'인생은 B와 D 사이의 삼성 Card',cat:'공모전',client:'삼성 iD 카드 · Series 03',desc:'정답은 찾았지만 자신의 취향은 찾지 못한 스무 살. 선택의 기로에서 타로 Card 집에 찾아간 그녀에게 해답이 된 iD 카드는?',people:3,date:'2024.03.01 — 2024.03.29',...common,tools:'Premiere Pro · After Effects · Photoshop'},
+{id:'3Yv0pAboG4k',title:'토사구팽',cat:'공모전',client:'노동 영상 공모전',desc:'토끼 바이러스에 맞서 밤낮없이 방역하던 노동자들. 인력 충원 요청은 묵살되고, 마침내 바이러스가 종식되자 해고를 통보받는다. 토끼 사냥이 끝나자 사냥개는 버려졌다.',people:4,date:'2023.11.15 — 2023.11.29',...common,tools:'Premiere Pro'},
+{id:'2pjBOA8tH5g',title:'한여름 밤의 꿈',cat:'공모전',client:'한국해양재단 · 바다사랑 영상 공모전',desc:'내가 버린 쓰레기들이 다시 나에게로 돌아오는 미스터리한 하루. 반복되는 어제를 벗어나려면 바다를 지켜야 한다.',people:3,date:'2024.01.22 — 2024.02.06',...common,tools:'Premiere Pro · Photoshop'},
+{id:'sApcEXHC-9Y',title:'투자가 설렐 수 있게',cat:'공모전',client:'삼성증권',desc:'두렵지 않고 설렘으로 가득했던 첫 만남을 이야기하는 주인공. 투자를 첫 만남의 감정으로 풀어낸 영상.',people:5,date:'2024.05.04 — 2024.06.03',role:[50,100,50],tools:'Premiere Pro'},
+{id:'PV6oYemDbjI',title:'해물짬뽕가래떡볶이',cat:'브랜드필름',client:'떡의 작품',desc:'해물, 짬뽕 그리고 떡집의 아들. 모든 걸 계승한 해물짬뽕가래떡볶이의 탄생 스토리.',people:16,date:'2023.12.16 — 2024.01.16',role:[100,50,50],tools:'Premiere Pro'},
+{id:'apyMPHAORaY',title:'할리갈리 카드 속 과일 먹어본 사람?',cat:'브랜드필름',client:'클룹 제로소다',desc:'카드 게임을 시작하는 네 명의 소녀. 제로소다 카드가 나오면 종을 쳐라. 과일의 달콤함을 거머쥘 승자는?',people:6,date:'2024.04.14 — 2024.04.24',vertical:true,role:[50,100,50],tools:'Premiere Pro · After Effects'},
+{id:'2z8wcvnLwvw',title:'2D VFX Showreel',cat:'VFX',client:'Netflix Academy · Gulliver Studios',desc:'디에이징, 크로마키 합성, 와이어 및 사물 제거, 오브젝트 교체와 배경 합성 작업을 담은 포트폴리오.',tools:'Nuke X',date:'교육 2024.06.24 — 2024.12.19',details:['Gulliver Studios 인턴 · 2024.10.25 — 2024.12.19','〈오징어게임 3〉: 인물·기물 로토, 세트 천장 연장, 크로마키 마커 제거 및 합성','〈버터플라이〉: 대역 배우 얼굴 교체, 와이어·촬영 장비·스태프 제거, 색감 보정 및 합성']},
+...[
+['e7OE3jD2x_I','손기정'],['G1sUEb0adCQ','무하마드 알리'],['Mmn5CScuBbw','아인슈타인'],['jy0rz-QKwcU','광인 월드컵'],['9O6O0zFzuA4','월드컵 특집 · 펠리 & 마라도나'],['eok5Nrzozuo','휘트니 휴스턴 & 셀린 디온'],['TvPBeXyCn0s','케네디 가문'],['tjaYue7a3mk','워런 버핏'],['Gsze8v0SIEA','장국영'],['55Y4gpT2AoY','광복절 특집 · 여옥사 8호 감방'],['PYf9gATgas8','이병철'],['hy3XKxsvN6o','이건희'],['ksR6YhWXzPY','이순재'],['ulIB5J6ZjB0','프란치스코 교황']
+].map(([id,title])=>({id,title,cat:'방송 예고',client:'KBS 〈셀럽병사의 비밀〉',desc:title==='광인 월드컵'?'초반 하이라이트 32초 작업. 전체 영상에서 해당 구간을 확인할 수 있습니다.':'KBS 〈셀럽병사의 비밀〉 '+title+' 편 예고.',credit:'예고 제작',tools:'Premiere Pro'}))
+];
